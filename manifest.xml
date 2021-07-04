@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata-oas>
+   <head>
+      <metadata-standards>LOM</metadata-standards>
+      <organization>Institute of Electrical and Electronics. Engineers (IEEE)</organization>
+   </head>
+   <metadata>
+      <characteristics>
+         <classification />
+         <educational>
+            <age-range />
+            <context />
+            <description />
+            <difficulty />
+            <estimated-learning-time />
+            <language />
+            <level-interactivity />
+            <role-final-user />
+            <semantic-density />
+            <type-interactivity />
+            <type-learning-resource />
+         </educational>
+         <general>
+            <coverage />
+            <description />
+            <identifier>
+               <catalog />
+               <input />
+            </identifier>
+            <keyword />
+            <language />
+            <level-of-aggregation />
+            <structure />
+            <title />
+         </general>
+         <life-cycle>
+            <contributors>
+               <date />
+               <entity />
+               <role />
+            </contributors>
+            <status />
+            <version>1.0.0</version>
+         </life-cycle>
+         <meta-metadata>
+            <contributors>
+               <date />
+               <entity />
+               <role />
+            </contributors>
+            <identifier>
+               <catalog />
+               <input />
+            </identifier>
+            <language />
+            <metadata-schema />
+         </meta-metadata>
+         <observation>
+            <date />
+            <description />
+            <entity />
+         </observation>
+         <relationship-with-other-resources>
+            <resource>
+               <identifier>
+                  <catalog />
+                  <description />
+                  <input />
+               </identifier>
+            </resource>
+            <type />
+         </relationship-with-other-resources>
+         <rights>
+            <cost />
+            <description />
+            <other-restrictions />
+            <right-of-copy />
+         </rights>
+         <techniques>
+            <comments />
+            <duration />
+            <format />
+            <location />
+            <requirements />
+            <requirements-other-platforms />
+            <size />
+         </techniques>
+      </characteristics>
+   </metadata>
+   <name>metadado-oas</name>
+   <version>1.0.0</version>
+</metadata-oas>
