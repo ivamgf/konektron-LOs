@@ -2,11 +2,15 @@
 // and then use them in any component by importing them. For
 // example, to import the interface below do:
 //
-// import { User } from 'path/to/interfaces';
+// import { DataLOs } from 'path/to/interfaces';
 
-export type User = {
+export type DataLOs = {
   id: number
   name: string
+  version: string
+  author: string
+  institution: string
+  subject: string
 }
 
 export type Lom = {
