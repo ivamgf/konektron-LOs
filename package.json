@@ -1,11 +1,15 @@
 {
   "name": "with-typescript",
   "version": "1.0.0",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
@@ -15,9 +19,11 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "jest": "^27.0.6",
     "typescript": "4.0"
   },
   "license": "MIT"
