@@ -2,28 +2,22 @@ import React from 'react';
 
 import { Mmc } from '../../interfaces/mmc';
 
-let mmcNum1: number;
-let mmcNum2: number;
 let rest: number;
-let mmc: number;
 
 export default function MmcFraction(
     mmcNum1: number, 
-    mmcNum2: number, 
-    rest: number, 
-    mmc : Mmc[]
-) {
-    const Mmc = (a, b) => {
-        mmcNum1 = a;
-        mmcNum2 = b;
-    
-        while(mmcNum2 !== 0) {
-            rest = mmcNum1 % mmcNum2;
-            mmcNum1 = mmcNum2;
-            mmcNum2 = rest;
+    mmcNum2: number
+    ) {
+        let a = mmcNum1;
+        let b = mmcNum2;
+        let rest: number;
+        while(rest !== 0) {
+            rest = a % b;
+            a = b;
+            b = rest;
         }
-        this.mmc = (mmcNum1 * mmcNum2) / mmcNum1;
+        let mmc = (mmcNum1 * mmcNum2) / a;
     
-        return { mmcNum1, mmc };
-    }
+        return mmc;
+    
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import MdcFraction from "../components/mdc/index";
+import MmcFraction from "../components/mmc/index";
 
 import Layout from '../components/Layout'
 

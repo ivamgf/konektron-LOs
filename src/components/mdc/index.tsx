@@ -2,10 +2,7 @@ import React from 'react';
 
 import { Mdc } from '../../interfaces/mdc';
 
-let mdcNum1: number;
-let mdcNum2: number;
 let rest: number;
-let mdc: [];
 
 export default function MdcFraction( 
     mdcNum1: number, 
