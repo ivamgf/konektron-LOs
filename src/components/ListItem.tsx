@@ -1,11 +1,12 @@
-import React from 'react'
-import Link from 'next/link'
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import React from 'react';
+import Link from 'next/link';
 
-import { DataLOs } from '../interfaces'
+import { DataLOs } from '../interfaces';
 
 type Props = {
-  data: DataLOs
-}
+  data: DataLOs;
+};
 
 const ListItem = ({ data }: Props) => (
   <Link href="/users/[id]" as={`/users/${data.id}`}>
@@ -13,6 +14,6 @@ const ListItem = ({ data }: Props) => (
       {data.id}: {data.name}
     </a>
   </Link>
-)
+);
 
-export default ListItem
+export default ListItem;

@@ -1,12 +1,12 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const AboutPage = () => (
   <Layout title="About | Next.js + TypeScript Example">
     <h1>About</h1>
     <p>
-      React.js + Next.js package for developing learning objects 
-      according to LOM (IEEE) standards and OBBA ontology.
+      React.js + Next.js package for developing learning objects according to LOM (IEEE) standards and OBBA ontology.
     </p>
     <p>
       <Link href="/">
@@ -14,6 +14,6 @@ const AboutPage = () => (
       </Link>
     </p>
   </Layout>
-)
+);
 
-export default AboutPage
+export default AboutPage;

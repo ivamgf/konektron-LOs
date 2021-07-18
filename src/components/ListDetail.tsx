@@ -1,10 +1,11 @@
-import * as React from 'react'
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import * as React from 'react';
 
-import { DataLOs } from '../interfaces'
+import { DataLOs } from '../interfaces';
 
 type ListDetailProps = {
-  item: DataLOs
-}
+  item: DataLOs;
+};
 
 const ListDetail = ({ item: datalos }: ListDetailProps) => (
   <div>
@@ -15,6 +16,6 @@ const ListDetail = ({ item: datalos }: ListDetailProps) => (
     <p>Institution: {datalos.institution}</p>
     <p>Subject: {datalos.subject}</p>
   </div>
-)
+);
 
-export default ListDetail
+export default ListDetail;
