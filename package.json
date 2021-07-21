@@ -10,7 +10,9 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint": "next lint"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
@@ -19,6 +21,7 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "babel-jest": "^27.0.6",
+    "eslint-config-next": "^11.0.1",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
