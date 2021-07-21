@@ -33,12 +33,12 @@ export type Lom = {
         keyword: string;
         coverage: string;
         structure: string;
-        levelOfAggregation: string;
+        aggregationLevel: string;
       };
       lifeCycle: {
         version: number;
         status: string;
-        contributors: {
+        contribute: {
           role: string;
           entity: string;
           date: Date;
@@ -49,7 +49,7 @@ export type Lom = {
           catalog: string;
           input: string;
         };
-        contributors: {
+        contribute: {
           role: string;
           entity: string;
           date: Date;
@@ -57,36 +57,61 @@ export type Lom = {
         metadataSchema: string;
         language: string;
       };
-      techniques: {
+      technical: {
         format: string;
         size: string;
         location: string;
-        requirements: string;
-        comments: string;
-        requirementsOtherPlatforms: string;
+        requirements: {
+          orComposite: string;
+        };
+        installationRemarks: string;
+        otherPlatformRequirements: string;
         duration: string;
+        supportedPlatform: string;
+        platformSpecificFeatures: {
+          platformType: string;
+          specificFormat: string;
+          specifSize: string;
+          specificLocation: string;
+          specificRequirement: string;
+          specificInstallationRemarks: string;
+          specificOtherPlatformRequeriments: string;
+        };
+        service: {
+          name: string;
+          type: string;
+          provides: string;
+          essential: string;
+          protocol: string;
+          ontology: string;
+          language: string;
+          details: string;
+        };
       };
       educational: {
-        typeInteractivity: string;
-        typeLearningResource: string;
-        levelInteractivity: string;
+        interactivityType: string;
+        learningResourceType: string;
+        interactivityLevel: string;
         semanticDensity: string;
-        roleFinalUser: string;
+        intendedEndUserRole: string;
         context: string;
-        ageRange: string;
+        typicalAgeRange: string;
         difficulty: string;
-        estimatedLearningTime: string;
+        typicalLearningTime: string;
         description: string;
         language: string;
+        learningContentType: string;
+        interaction: string;
+        didaticStrategy: string;
       };
       rights: {
-        cost: string;
-        rightOfCopy: string;
+        cost: number;
+        copyrightAndOtherRestrictions: string;
         otherRestrictions: string;
         description: string;
       };
-      relationshipWithOtherResources: {
-        type: string;
+      relation: {
+        kind: string;
         resource: {
           identifier: {
             catalog: string;
@@ -95,12 +120,29 @@ export type Lom = {
           };
         };
       };
-      observation: {
+      annotation: {
         entity: string;
         date: Date;
         description: string;
       };
-      classification: string;
+      classification: {
+        purpose: string;
+        taxonPath: string;
+        description: string;
+        keyword: string;
+      };
+      acessibility: {
+        hasVisual: string;
+        hasAudititory: string;
+        hasText: string;
+        hasTactile: string;
+        earlStatement: string;
+        equivalentResource: string;
+      };
+      segmentInformationTable: {
+        segmentList: string;
+        segmentGroupList: string;
+      };
     };
   };
 };

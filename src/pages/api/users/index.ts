@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 // import { sampleUserData } from '../../../utils/sample-data'
 import { metadataLom } from '../../../utils/metadata-lom';
 
-const handler = (_req: NextApiRequest, res: NextApiResponse) => {
+const handler = (_req?: NextApiRequest, res?: NextApiResponse) => {
   try {
     if (!Array.isArray(metadataLom)) {
       throw new Error('Cannot find user data');
