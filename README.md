@@ -1,3 +1,7 @@
+# Konektron-LOs
+
+Konektron-LOs project version 2.0.0
+
 # TypeScript Next.js example
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
