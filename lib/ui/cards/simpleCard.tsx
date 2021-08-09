@@ -38,7 +38,6 @@ export default function SimpleCard() {
           React.js + Next.js package for developing learning objects according to LOM (IEEE) standards and OBAA
           ontology.
           <br />
-          {'"a benevolent smile"'}
         </Typography>
       </CardContent>
       <CardActions></CardActions>

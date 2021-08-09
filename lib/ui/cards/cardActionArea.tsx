@@ -26,7 +26,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Konektron Logo"
           height="360"
-          image="https://github.com/ivamgf/Konektron-appWeb-V2.0.0/blob/master/konektron-appweb/src/assets/images/logo-konektron.png?raw=true"
+          image="https://github.com/ivamgf/konektron-los/blob/main/public/assets/images/logo-konektron.png?raw=true"
           title="Konektron Logo"
         />
         <CardContent>
