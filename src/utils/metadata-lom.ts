@@ -4,7 +4,7 @@ import { Lom } from '../interfaces';
 export const metadataLom: Lom[] = [
   {
     name: 'metadado-oas',
-    version: 1.0,
+    version: 2.0,
     head: {
       metadataStandards: 'LOM',
       organization: 'Institute of Electrical and Electronics. Engineers (IEEE)',
@@ -25,7 +25,7 @@ export const metadataLom: Lom[] = [
           aggregationLevel: '',
         },
         lifeCycle: {
-          version: 1.0,
+          version: 2.0,
           status: '',
           contribute: {
             role: '',

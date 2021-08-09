@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import Layout from '../components/Layout';
+import CardActionArea from '../../lib/ui/cards/cardActionArea';
 
 const IndexPage = () => (
   <>
@@ -13,12 +14,13 @@ const IndexPage = () => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Head>
     <Layout title="Home | Next.js + TypeScript Example">
-      <h1>Hello Next.js 👋</h1>
-      <p>
+      <h1>Konektron Package Learning Objects</h1>
+      <CardActionArea />
+      <div>
         <Link href="/about">
           <a>About</a>
         </Link>
-      </p>
+      </div>
     </Layout>
   </>
 );
