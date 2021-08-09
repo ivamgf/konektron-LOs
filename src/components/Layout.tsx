@@ -27,15 +27,15 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </Link>{' '}
         |{' '}
         <Link href="/users">
-          <a>Users List</a>
+          <a>Details</a>
         </Link>{' '}
-        | <a href="/api/metadataApi">Users API</a>
+        | <a href="/api/metadataApi">API metadata</a>
       </nav>
     </header>
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>Konektron Learning Objects Version 2.0.0</span>
     </footer>
   </div>
 );
